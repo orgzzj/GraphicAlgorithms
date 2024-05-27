@@ -128,10 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BasicGraphicsAlgorithms.hpp" />
-    <ClInclude Include="CustomDataType.hpp" />
+    <ClInclude Include="DataType.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicGraphicsAlgorithms.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

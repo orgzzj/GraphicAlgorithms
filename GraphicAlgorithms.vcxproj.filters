@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CustomDataType.hpp">
+    <ClInclude Include="DataType.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BasicGraphicsAlgorithms.hpp">
@@ -24,6 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicGraphicsAlgorithms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
